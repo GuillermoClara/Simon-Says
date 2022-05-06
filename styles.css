@@ -1,0 +1,132 @@
+body{
+  background-color: #011F3F;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+}
+
+.title, h2{
+  margin-top: 3%;
+  color: white;
+}
+
+.btn{
+  width: 200px;
+  height: 200px;
+  margin: 2%;
+  border-radius: 10%;
+  border: solid black 12px;
+  display: inline-block;
+}
+
+.container{
+  margin: 5%;
+}
+
+.pressed{
+  border-color: white;
+  box-shadow: 0 0 20px white;
+  background-color: gray;
+}
+
+.green{
+  background-color: green;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.option{
+  background-color: #DCE2BD;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 5%;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: solid black 10px;
+}
+
+/* OPTION STYLES */
+
+.selected-option{
+  background-color: #ECA6A6;
+  color: white;
+  border-color: white;
+}
+
+.option p{
+  font-size: 1.2rem;
+}
+
+.back{
+  background-color: #DCE2BD;
+  width: 12%;
+  margin: auto;
+  position: absolute;
+  left: 5%;
+}
+
+.container-display{
+  width: 40%;
+  margin: auto;
+}
+
+.container-display .btn{
+  width: 100px;
+  height: 100px;
+}
+
+.container-display .option{
+  width: 60%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+@media (max-width: 900px){
+
+  .btn{
+    width: 150px;
+    height: 150px;
+  }
+
+  .option{
+    margin-bottom: 15%;
+  }
+
+  .title{
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .back{
+    width: 15%;
+  }
+
+  .container-display .btn{
+    width: 80px;
+    height: 80px;
+  }
+
+  .container-display{
+    width: 100%;
+  }
+
+  h2{
+    width: 40%;
+    margin: -50px auto 0 auto;
+    font-size: 1rem;
+  }
+}
