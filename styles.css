@@ -104,11 +104,13 @@ a{
 
   .option{
     margin-bottom: 15%;
+    width: 90%;
   }
 
   .title{
     margin-top: 10%;
     margin-bottom: 10%;
+    font-size: 3rem;
   }
 
   .back{
