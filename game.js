@@ -87,7 +87,7 @@ function levelUp(){
 }
 
 function pickRandomButton(){
-  let randomIndex = Math.floor( Math.random()*3);
+  let randomIndex = Math.floor( Math.random()*4);
   let color = colors[randomIndex];
   pattern.push(color);
   playSound(color);
