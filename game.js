@@ -8,7 +8,7 @@ var delay = determineDelayTime();
 
 
 //Handle to start game
-$(document).on("keypress tap", function(){
+$(document).on("keypress touchstart", function(){
 
   if(inGame == false){
     $("h1").text("Level "+level);
